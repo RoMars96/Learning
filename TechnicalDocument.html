@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="TechnicalDocumentStyles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Technical Documentation</title>
+  </head>
+
+  <nav id="navbar">
+    <img id="logo" src="https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png">
+    <header class="logo" id="home">Creating a Github Website</header>
+    <ul >
+      <li>
+        <a class="nav-link" href="#Creating_a_repository">Creating a repository</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Creating_your_site">Creating your site</a>
+      </li>
+      <li><a class="nav-link" href="#Next_steps">Next steps</a></li>
+      <li><a class="nav-link" href="#Further_reading">Further Reading</a></li>
+      <li><a class="nav-link" href="#More_help">More help</a></li>
+  </nav>
+
+<main>
+<body class="body">
+<section class="main-section" id="Creating_a_repository">
+    <header>
+      <p><b>Creating a repository</b></p>
+    </header>
+
+     <p>
+      You can either create a repository or choose an existing
+      repository for your site. If you want to create a GitHub Pages
+      site for a repository where not all of the files in the repository
+      are related to the site, you will be able to configure a
+      publishing source for your site. For example, you can have a
+      dedicated branch and folder to hold your site source files, or you
+      can use a custom GitHub Actions workflow to build and deploy your
+      site source files. If the account that owns the repository uses
+      GitHub Free or GitHub Free for organizations, the repository must
+      be public. If you want to create a site in an existing repository,
+      skip to the "Creating your site" section.
+      <!--Creat a link for this-->
+     </p>
+    <ol>
+      <li>
+        <p>
+        In the upper-right corner of any page, select , then click New
+        repository.
+        </p>
+      </li>
+      <img src="https://docs.github.com/assets/cb-34248/mw-1440/images/help/repository/repo-create-global-nav-update.webp"
+            id="new_repository"
+            alt="new_repository_img"/>
+      <li>
+      <p>
+       Use the Owner dropdown menu to select the account you want to
+       own the repository.
+      </p>
+      </li>
+      <img src="https://docs.github.com/assets/cb-26658/mw-1440/images/help/repository/create-repository-owner.webp"
+            id="owner_dropdown"
+            alt="owner_dropdown_img"/>
+      <li>
+      <p>
+       Type a name for your repository and an optional description.
+       If you're creating a user or organization site, your
+       repository must be named <code>user</code>.github.io or
+       <code>organization</code>.github.io. If your user or organization 
+       name contains uppercase letters, you must lowercase the letters. 
+       For more information, see "About GitHub Pages." <!--Creat a link for this-->
+      </p>
+      <li>
+        <p>
+         Choose a repository visibility. For more information,
+         see "About repositories."<!--Creat a link for this-->
+        </p>
+      </li>
+      <li>
+       <p>
+        Select Initialize this repository with a <code>README.</code>
+       </p>
+      </li>
+      <li>
+       <p>
+        Click Create repository.
+       </p>
+      </li>
+    </ol>  
+  </section> 
+
+  <section class="main-section" id="Creating_your_site">
+    <header>
+     <p>
+      <b>Creating your site</b>
+     </p>
+    </header>
+    <p>
+     Before you can create your site, you must have a
+     repository for your site on GitHub. If you're not
+     creating your site in an existing repository, see
+     "Creating a repository for your site."<!--Creat a link for this-->
+    </p>
+    <p>
+     Warning: GitHub Pages sites are publicly available
+     on the internet, even if the repository for the site
+     is private. If you have sensitive data in your
+     site's repository, you may want to remove the data
+     before publishing. For more information, see "About
+     repositories."<!--Creat a link for this-->
+    </p>
+  <ol>
+    <li>
+     <p>
+     On GitHub, navigate to your site's repository.
+     </p>
+    </li>
+    <li>
+     <p>
+     Decide which publishing source you want to use.
+     For more information, see "Configuring a
+     publishing source for your GitHub Pages site."<!--Creat a link for this-->
+     </p>
+    </li>
+    <li>
+     <p>
+     Create the entry file for your site. GitHub
+     Pages will look for an <code>index.html</code>, <code>index.md</code>,
+     or <code>README.md</code> file as the entry file for your site.
+     </p>
+    </li>
+  </ol>
+  <p>
+   If your publishing source is a branch and folder,
+   the entry file must be at the top level of the
+   source folder on the source branch. For example, if your publishing source 
+   is the <code>/docs</code> folder on the <code>main</code> branch, your 
+   entry file must be located in the <code>/docs</code> folder on a branch
+   called <code>main</code>.
+  </p>
+  <p>
+   If your publishing source is a GitHub Actions
+   workflow, the artifact that you deploy must include
+   the entry file at the top level of the artifact.
+   Instead of adding the entry file to your repository,
+   you may choose to have your GitHub Actions workflow
+   generate your entry file when the workflow runs.
+  </p>
+  </section>
+
+  <section class="main-section" id="Next_steps">
+   <header>
+      <b><p>Next steps</p></b>
+    </header>
+  </section>
+  
+  <section class="main-section" id="Further_reading">
+   <header>
+    <b><p>Further reading</p></b>
+   </header>
+  </section>
+
+  <section class="main-section" id="More_help">
+   <header>
+    <b><p>More help</p></b>
+   </header>
+  </section>
+
+  <p>
+    <a class="return" href="#home">return to top</a>
+  </p>
+</body>
+</main>
+</html>
