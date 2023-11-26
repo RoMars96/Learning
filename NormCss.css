@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --var(stackcol1): grey;
+    --var(stackcol2): green;
+    --var(stackcol3): blue;
+}
+    
+
 .header{
 text-align: center;
 background-color: rgb(221, 219, 219);
@@ -9,7 +16,7 @@ color: #3b3b3b;
 }
 
 .header p{
-    color: rgb(106, 107, 107);
+    color: --var(stackcol1);
 }
 
 body{
